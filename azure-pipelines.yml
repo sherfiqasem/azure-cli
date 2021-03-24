@@ -235,6 +235,7 @@ jobs:
         }
         az --version
         az self-test
+        az extension add -n rdbms-connect
 
 - job: BuildDockerImage
   displayName: Build Docker Image
